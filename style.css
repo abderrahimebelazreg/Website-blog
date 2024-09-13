@@ -1,0 +1,160 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: 1650px;
+}
+
+ul {
+    background-color: black;
+    text-align: center;
+}
+
+li{
+    display: inline-block;
+    padding: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+ul li a:hover{
+    padding: 3px;
+    background-color:greenyellow ;
+    color:black;
+    border:  3px solid greenyellow;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px white;
+    transition: all 100ms;
+}
+
+.img-header {
+    width: 100%;
+}
+.all-features{
+    display: flex;
+    justify-content: space-between;
+}
+
+.features{
+    width: 90%;
+    text-align: center ;
+    margin: auto;
+}
+.features i{
+    margin: 15px;
+    font-size: 30px;
+}
+.feature h3{
+    margin: 20px;
+
+}
+.features h2{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: rgb(138, 230, 0);
+    font-size: 30px;
+}
+
+.feature{
+    margin: auto;
+    text-align: center;
+    width: 45%;
+    background-color: #eee;
+    height: 200px;
+    border-radius: 10px;
+}
+
+
+
+
+.my-photos {
+    width: 80%;
+    text-align: center ;
+    margin: auto;
+}
+
+.all-photos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo{
+    width: 30%;
+   
+}
+.photo img{
+    width: 100%; 
+    border-radius: 10px;
+}
+
+.my-photos h2{
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: rgb(138, 230, 0);
+    font-size: 30px;
+}
+
+
+.OurContact{
+    padding-top: 30px;
+    width: 80%;
+    text-align: center ;
+    margin: auto;
+}
+.contact {
+    background-color: white;
+    padding: 30px;
+    margin: 50px;
+    box-shadow: 3px 3px 10px green;
+    border-radius: 20px;
+}
+.form-contact {
+
+    width: 80%;
+    margin: auto;
+   
+    
+}
+.forminput input{
+    width: 70%;
+    height: 40px;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 1px 1px 5px green;
+
+}
+.Send{
+    background-color: rgb(138, 230, 0);
+    color: white;
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 1px 1px 10px green; 
+    cursor: pointer;
+}
+
+.SM{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    width: 80%;
+    text-align: center ;
+    margin: auto;
+}
+
+.Social-Media {
+    width: 30%;
+    text-align: center ;
+    margin: auto;
+    font-size: 30px;
+
+}
